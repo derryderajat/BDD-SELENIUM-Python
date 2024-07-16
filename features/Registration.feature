@@ -19,11 +19,7 @@ Feature: Verifying Registration Functionality
     Then User should be registered successfully
     Examples:
         |username|email_id|password| gender | bod | country | state | city | zipcode |
-        |orakksa|adadasd1123@yopmail.com|1234qwer| Male | 09/17/1997 | Indonesia | Banten | Cilegon | 42412 |
+        |orakksa|adadasd1123@yopmail.com|1234qwer| Male | 29/12/1945 | Indonesia | Serang | Cilegon | 42412 |
 
 
-    # @sanity @smoke
-    # Scenario: Registration with exists username in repository
-    # continue please
-    # and assert this one in then     # 'User / email id not available. Please try another'
     
